@@ -2,27 +2,32 @@
 #   - Create the following variables
 #   - my_first_name
 #       -set this equal to your first name
+my_first_name = 'Julio'
 #   - my_last_name
 #       -set this equal to your last name
+my_last_name = 'Andrade'
 #   - my_year_of_birth
 #       -set this equal to your birth year (doesn't have to be real should be less then 100 yrs ago)
+my_year_of_birth = 1988
 #   - current_year
-#       -set this equal to 2020
-
-
+#       -set this equal to 2022
+current_year = 2022
 
 
 # TODO String Indexing
 #   - Print the following items (one per line) (print using variables)
-#       - first name  
+#       - first name 
+print(my_first_name) 
 #       - last name
+print(my_last_name)
 #       - first letter of your first name (use the +index)
 #       - second letter of your last name (use the -index)
 #       - first two letter of your first name (use the +index)
 #       - second two letter of your last name (use the -index)
-
-
-
+names_list = ['one','two','three']
+digits_list = ['1', '2','3']
+names_list = names_list + digits_list
+print(names_list)
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
