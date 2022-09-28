@@ -2,9 +2,6 @@
 #   - Create the following variables
 #   - my_first_name
 #       -set this equal to your first name
-from re import M
-
-
 my_first_name = 'Julio'
 #   - my_last_name
 #       -set this equal to your last name
@@ -19,17 +16,20 @@ current_year = 2022
 
 # TODO String Indexing
 #   - Print the following items (one per line) (print using variables)
-#       - first name 
-print(my_first_name) 
+#       - first name  
 #       - last name
-print(my_last_name)
 #       - first letter of your first name (use the +index)
-print(my_first_name[0])
 #       - second letter of your last name (use the -index)
-print(my_last_name[-6])
 #       - first two letter of your first name (use the +index)
-print(my_first_name[0:1])
 #       - second two letter of your last name (use the -index)
+print(my_first_name) 
+print(my_last_name)
+print(my_first_name[0])
+print(my_last_name[-6])
+print(my_first_name[0:2])
+print(my_last_name[-2:])
+
+
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
