@@ -2,6 +2,9 @@
 #   - Create the following variables
 #   - my_first_name
 #       -set this equal to your first name
+from re import M
+
+
 my_first_name = 'Julio'
 #   - my_last_name
 #       -set this equal to your last name
@@ -21,17 +24,17 @@ print(my_first_name)
 #       - last name
 print(my_last_name)
 #       - first letter of your first name (use the +index)
+print(my_first_name[0])
 #       - second letter of your last name (use the -index)
+print(my_last_name[-6])
 #       - first two letter of your first name (use the +index)
+print(my_first_name[0:1])
 #       - second two letter of your last name (use the -index)
-names_list = ['one','two','three']
-digits_list = ['1', '2','3']
-names_list = names_list + digits_list
-print(names_list)
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
+print(my_first_name + my_last_name)
 #       -first name six times
 
 
