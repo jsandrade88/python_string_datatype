@@ -8,7 +8,7 @@ my_first_name = 'Julio'
 my_last_name = 'Andrade'
 #   - my_year_of_birth
 #       -set this equal to your birth year (doesn't have to be real should be less then 100 yrs ago)
-my_year_of_birth = 1988
+my_birth_year = 1988
 #   - current_year
 #       -set this equal to 2022
 current_year = 2022
@@ -44,17 +44,25 @@ print(my_first_name * 6)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-
-
+birth_year_statement = ('{} {} was born in {}')
+print(birth_year_statement.format(my_first_name, my_last_name, my_birth_year))
+birth_year_celebration = "{} {} was born in {}. {}, enjoyed celebrating {}"
+print(birth_year_statement.format(my_first_name, my_last_name, my_birth_year)
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
-
+escape_example = "{}\'s birth year is {}"
+print(escape_example.format(my_first_name, my_birth_year))
+escape_last_name = '\t{}'
+print(escape_last_name.format(my_last_name))
 
 # TODO String methods
 #   - Print the following items (one per line) (print using variables)
 #       - first name and last name in lower case
 #       - length of last name
 #       - first name and last name all in upper case
+print(my_first_name.casefold(), my_last_name.casefold())
+print(len(my_last_name))
+print()
