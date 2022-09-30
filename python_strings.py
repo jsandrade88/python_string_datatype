@@ -44,10 +44,10 @@ print(my_first_name * 6)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-birth_year_statement = ('{} {} was born in {}')
+birth_year_statement = ('{} {} was born in {}.')
 print(birth_year_statement.format(my_first_name, my_last_name, my_birth_year))
-birth_year_celebration = "{} {} was born in {}. {}, enjoyed celebrating {}"
-print(birth_year_statement.format(my_first_name, my_last_name, my_birth_year)
+birth_year_celebration = ("{}, enjoyed celebrating {}")
+print(birth_year_statement.format(my_first_name, my_last_name, my_birth_year), birth_year_celebration.format(my_first_name, current_year))
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
@@ -65,4 +65,4 @@ print(escape_last_name.format(my_last_name))
 #       - first name and last name all in upper case
 print(my_first_name.casefold(), my_last_name.casefold())
 print(len(my_last_name))
-print()
+print(my_first_name.upper(), my_last_name.upper())
